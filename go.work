@@ -1,6 +1,0 @@
-go 1.21.5
-
-use (
-	"./13 first-app"
-	"./16 Investment-Calculator"
-)
