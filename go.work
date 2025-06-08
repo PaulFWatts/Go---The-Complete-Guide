@@ -1,0 +1,3 @@
+go 1.24.4
+
+use ./code/01-getting-started/first-app
