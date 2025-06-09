@@ -1,3 +1,13 @@
-go 1.22
+go 1.24.4
 
-use ./code/02-go-essentials/09-understanding-functions
+use (
+	./code/01-getting-started/first-app
+	./code/02-go-essentials/02-working-with-variables-types-operators
+	./code/02-go-essentials/03-using-alternative-variable-declaration-styles
+	./code/02-go-essentials/04-constants
+	./code/02-go-essentials/05-improved-user-input-fetching
+	./code/02-go-essentials/06-exercise-solution
+	./code/02-go-essentials/07-formatting-floats-in-strings
+	./code/02-go-essentials/09-understanding-functions
+)
+
