@@ -14,5 +14,16 @@ use (
 	./code/02-go-essentials/12-exercise-fn-solution
 	./code/02-go-essentials/13-onwards-to-control-structures
 	./code/02-go-essentials/14-introducing-if
+	./code/02-go-essentials/15-working-with-else-if
+	./code/02-go-essentials/16-exercise-if
+	./code/02-go-essentials/17-else
+	./code/02-go-essentials/18-nested-if
+	./code/02-go-essentials/19-repeating-code-with-for
+	./code/02-go-essentials/20-infinite-loop-break-continue
+	./code/02-go-essentials/21-switch
+	./code/02-go-essentials/22-writing-to-files
+	./code/02-go-essentials/23-reading-from-files
+	./code/02-go-essentials/24-handling-errors
+	./code/02-go-essentials/25-section-exercise-solution
 )
 

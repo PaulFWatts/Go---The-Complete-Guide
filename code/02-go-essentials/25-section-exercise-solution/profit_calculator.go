@@ -43,14 +43,14 @@ func main() {
 
 	ebt, profit, ratio := calculateFinancials(revenue, expenses, taxRate)
 
-	fmt.Printf("%.1f\n", ebt)
-	fmt.Printf("%.1f\n", profit)
+	fmt.Printf("%.2f\n", ebt)
+	fmt.Printf("%.2f\n", profit)
 	fmt.Printf("%.3f\n", ratio)
 	storeResults(ebt, profit, ratio)
 }
 
 func storeResults(ebt, profit, ratio float64) {
-	results := fmt.Sprintf("EBT: %.1f\nProfit: %.1f\nRatio: %.3f\n", ebt, profit, ratio)
+	results := fmt.Sprintf("EBT: %.2f\nProfit: %.2f\nRatio: %.3f\n", ebt, profit, ratio)
 	os.WriteFile("results.txt", []byte(results), 0644)
 }
 
@@ -67,7 +67,7 @@ func getUserInput(infoText string) (float64, error) {
 	fmt.Scan(&userInput)
 
 	if userInput <= 0 {
-		return 0, errors.New("Value must be a positive number.")
+		return 0, errors.New("value must be a positive number")
 	}
 
 	return userInput, nil
