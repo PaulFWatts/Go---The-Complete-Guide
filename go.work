@@ -9,5 +9,10 @@ use (
 	./code/02-go-essentials/06-exercise-solution
 	./code/02-go-essentials/07-formatting-floats-in-strings
 	./code/02-go-essentials/09-understanding-functions
+	./code/02-go-essentials/10-functions-return-values
+	./code/02-go-essentials/11-alternative-return-syntax
+	./code/02-go-essentials/12-exercise-fn-solution
+	./code/02-go-essentials/13-onwards-to-control-structures
+	./code/02-go-essentials/14-introducing-if
 )
 
