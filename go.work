@@ -29,5 +29,10 @@ use (
 	./code/03-working-with-packages/02-splitting-code-across-files
 	./code/03-working-with-packages/03-exporting-importing
 	./code/03-working-with-packages/04-third-party-packages
+	./code/04-understanding-pointers/01-writing-code-without-pointers
+	./code/04-understanding-pointers/02-pointers-as-values
+	./code/04-understanding-pointers/03-using-pointers-passing-to-fn
+	./code/04-understanding-pointers/04-using-pointers-for-data-mutation
+
 )
 
