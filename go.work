@@ -25,5 +25,9 @@ use (
 	./code/02-go-essentials/23-reading-from-files
 	./code/02-go-essentials/24-handling-errors
 	./code/02-go-essentials/25-section-exercise-solution
+	./code/03-working-with-packages/01-starting-project
+	./code/03-working-with-packages/02-splitting-code-across-files
+	./code/03-working-with-packages/03-exporting-importing
+	./code/03-working-with-packages/04-third-party-packages
 )
 

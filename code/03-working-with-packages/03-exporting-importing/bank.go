@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/bank/fileops"
+	"example32.com/bank/fileops"
 )
 
 const accountBalanceFile = "balance.txt"

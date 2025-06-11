@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/bank/fileops"
+	"example33.com/bank/fileops"
 	"github.com/Pallinder/go-randomdata"
 )
 
