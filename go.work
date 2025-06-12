@@ -33,6 +33,10 @@ use (
 	./code/04-understanding-pointers/02-pointers-as-values
 	./code/04-understanding-pointers/03-using-pointers-passing-to-fn
 	./code/04-understanding-pointers/04-using-pointers-for-data-mutation
-
+	./code/05-structs-custom-types/01-starting-project
+	./code/05-structs-custom-types/02-defining-a-struct
+	./code/05-structs-custom-types/03-instantiating-structs
+	./code/05-structs-custom-types/04-structs-pointers
+	./code/05-structs-custom-types/05-introducing-methods
 )
 
