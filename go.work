@@ -42,6 +42,10 @@ use (
 	./code/05-structs-custom-types/07-using-creation-constructor-functions
 	./code/05-structs-custom-types/09-exposing-methods
 	./code/05-structs-custom-types/10-struct-embedding
+	./code/05-structs-custom-types/11-other-custom-types
+	./code/05-structs-custom-types/12-new-starting-project
+	./code/05-structs-custom-types/13-getting-user-input
+	./code/05-structs-custom-types/14-creating-struct-and-constructor-fn
 
 
 )

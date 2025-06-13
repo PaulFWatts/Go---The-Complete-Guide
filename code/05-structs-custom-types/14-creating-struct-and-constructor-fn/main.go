@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/note/note"
+	"example14.com/note/note"
 )
 
 func main() {
