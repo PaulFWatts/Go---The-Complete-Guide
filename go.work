@@ -38,5 +38,11 @@ use (
 	./code/05-structs-custom-types/03-instantiating-structs
 	./code/05-structs-custom-types/04-structs-pointers
 	./code/05-structs-custom-types/05-introducing-methods
+	./code/05-structs-custom-types/06-mutation-methods
+	./code/05-structs-custom-types/07-using-creation-constructor-functions
+	./code/05-structs-custom-types/09-exposing-methods
+	./code/05-structs-custom-types/10-struct-embedding
+
+
 )
 

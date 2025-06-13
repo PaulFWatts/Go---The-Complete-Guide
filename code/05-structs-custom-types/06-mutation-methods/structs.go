@@ -18,6 +18,7 @@ func (u *user) outputUserDetails() {
 	fmt.Println(u.firstName, u.lastName, u.birthDate)
 }
 
+// Mutation method to clear the user's name
 func (u *user) clearUserName() {
 	u.firstName = ""
 	u.lastName = ""

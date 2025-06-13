@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/structs/user"
+	"example09.com/structs/user"
 )
 
 func main() {

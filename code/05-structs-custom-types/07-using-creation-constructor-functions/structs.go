@@ -23,6 +23,7 @@ func (u *user) clearUserName() {
 	u.lastName = ""
 }
 
+// NewUser is a constructor function that initializes a user instance
 func newUser(firstName, lastName, birthdate string) *user {
 	return &user{
 		firstName: firstName,
@@ -39,7 +40,7 @@ func main() {
 
 	var appUser *user
 
-	appUser = newUser(userFirstName, userLastName, userBirthdate)
+	appUser = newUser(userFirstName, userLastName, userBirthdate) // Create a new user instance using the constructor function
 
 	// ... do something awesome with that gathered data!
 
