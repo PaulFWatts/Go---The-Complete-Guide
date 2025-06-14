@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 
 	"example14.com/note/note"
 )
@@ -9,7 +11,7 @@ import (
 func main() {
 	title, content := getNoteData()
 
-	userNote, err := note.New(title, content)
+	_, err := note.New(title, content)
 
 	if err != nil {
 		fmt.Println(err)
@@ -27,8 +29,10 @@ func getNoteData() (string, string) {
 
 func getUserInput(prompt string) string {
 	fmt.Print(prompt)
-	var value string
-	fmt.Scanln(&value)
-
+	reader := bufio.NewReader(os.Stdin)
+	value, _ := reader.ReadString('\n')
+	if len(value) > 0 && value[len(value)-1] == '\n' {
+		value = value[:len(value)-1]
+	}
 	return value
 }
