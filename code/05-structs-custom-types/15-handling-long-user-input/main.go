@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"example.com/note/note"
+	"example15.com/note/note"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 		return
 	}
 
-	userNote.Display()
+	userNote.Display() // Display the note
 
 }
 

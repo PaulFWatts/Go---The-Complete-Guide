@@ -46,6 +46,9 @@ use (
 	./code/05-structs-custom-types/12-new-starting-project
 	./code/05-structs-custom-types/13-getting-user-input
 	./code/05-structs-custom-types/14-creating-struct-and-constructor-fn
+	./code/05-structs-custom-types/15-handling-long-user-input
+	./code/05-structs-custom-types/16-fixes
+	./code/05-structs-custom-types/17-struct-tags
 
 
 )
