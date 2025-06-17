@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"example.com/note/note"
-	"example.com/note/todo"
+	"example64.com/note/note"
+	"example64.com/note/todo"
 )
 
 type saver interface {

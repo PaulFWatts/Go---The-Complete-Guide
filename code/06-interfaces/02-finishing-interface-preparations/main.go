@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"example.com/note/note"
-	"example.com/note/todo"
+	"example62.com/note/note"
+	"example62.com/note/todo"
 )
 
 func main() {

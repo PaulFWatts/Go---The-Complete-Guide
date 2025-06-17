@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"example.com/note/note"
+	"example61.com/note/note"
 )
 
 func main() {

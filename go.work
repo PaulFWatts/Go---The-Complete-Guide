@@ -49,7 +49,10 @@ use (
 	./code/05-structs-custom-types/15-handling-long-user-input
 	./code/05-structs-custom-types/16-fixes
 	./code/05-structs-custom-types/17-struct-tags
-
+	./code/06-interfaces/01-starting-project
+	./code/06-interfaces/02-finishing-interface-preparations
+	./code/06-interfaces/03-creating-a-first-interface
+	./code/06-interfaces/04-using-the-interface
 
 )
 
