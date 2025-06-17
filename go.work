@@ -53,6 +53,11 @@ use (
 	./code/06-interfaces/02-finishing-interface-preparations
 	./code/06-interfaces/03-creating-a-first-interface
 	./code/06-interfaces/04-using-the-interface
+	./code/06-interfaces/05-embedded-interfaces
+	./code/06-interfaces/06-special-any-value-interface
+	./code/06-interfaces/07-working-with-type-switches
+	./code/06-interfaces/08-extracting-type-information
+	./code/06-interfaces/09-introducing-generics
 
 )
 
