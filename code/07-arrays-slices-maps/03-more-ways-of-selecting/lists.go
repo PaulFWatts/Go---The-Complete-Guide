@@ -13,7 +13,8 @@ func main() {
 
 	fmt.Println(prices[2])
 
-	featuredPrices := prices[1:]
-	highlightedPrices := featuredPrices[:1]
+	featuredPrices := prices[1:] // This will print the slice containing prices from index 1 to the end of the array
+	fmt.Println(featuredPrices)
+	highlightedPrices := featuredPrices[:1] // This will print the slice containing prices from index 1 to the end
 	fmt.Println(highlightedPrices)
 }

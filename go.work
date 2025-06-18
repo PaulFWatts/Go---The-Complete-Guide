@@ -58,6 +58,11 @@ use (
 	./code/06-interfaces/07-working-with-type-switches
 	./code/06-interfaces/08-extracting-type-information
 	./code/06-interfaces/09-introducing-generics
+	./code/07-arrays-slices-maps/01-working-with-arrays
+	./code/07-arrays-slices-maps/02-selecting-parts-with-slices
+	./code/07-arrays-slices-maps/03-more-ways-of-selecting
+	./code/07-arrays-slices-maps/04-diving-deeper-into-slices
+	./code/07-arrays-slices-maps/05-dynamic-lists-with-slices
 
 )
 

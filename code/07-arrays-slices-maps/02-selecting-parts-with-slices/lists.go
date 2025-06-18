@@ -14,5 +14,5 @@ func main() {
 	fmt.Println(prices[2])
 
 	featuredPrices := prices[1:3]
-	fmt.Println(featuredPrices)
+	fmt.Println(featuredPrices) // This will print the slice containing prices from index 1 to 2 (exclusive of 3)
 }
