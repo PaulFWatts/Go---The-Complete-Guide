@@ -63,6 +63,15 @@ use (
 	./code/07-arrays-slices-maps/03-more-ways-of-selecting
 	./code/07-arrays-slices-maps/04-diving-deeper-into-slices
 	./code/07-arrays-slices-maps/05-dynamic-lists-with-slices
+	./code/07-arrays-slices-maps/07-exercise-solution
+	./code/07-arrays-slices-maps/08-unpacking-list-values
+	./code/07-arrays-slices-maps/09-introducing-maps
+	./code/07-arrays-slices-maps/10-mutating-maps
+	./code/07-arrays-slices-maps/11-maps-vs-structs
+	./code/07-arrays-slices-maps/12-make-function
+	./code/07-arrays-slices-maps/13-make-and-maps
+	./code/07-arrays-slices-maps/14-type-aliases
+	./code/07-arrays-slices-maps/15-for-loop
 
 )
 

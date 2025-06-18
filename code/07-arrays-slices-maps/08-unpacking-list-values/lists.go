@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(prices)
 
 	discountPrices := []float64{101.99, 80.99, 20.59}
-	prices = append(prices, discountPrices...)
+	prices = append(prices, discountPrices...) // Unpacking the slice by using the ellipsis
 	fmt.Println(prices)
 }
 

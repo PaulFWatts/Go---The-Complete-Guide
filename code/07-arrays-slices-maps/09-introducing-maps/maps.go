@@ -7,6 +7,6 @@ func main() {
 		"Google":              "https://google.com",
 		"Amazon Web Services": "https://aws.com",
 	}
-	fmt.Println(websites)
+	fmt.Println(websites, "\n")
 	fmt.Println(websites["Amazon Web Services"])
 }
