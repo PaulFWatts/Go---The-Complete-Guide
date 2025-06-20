@@ -72,6 +72,10 @@ use (
 	./code/07-arrays-slices-maps/13-make-and-maps
 	./code/07-arrays-slices-maps/14-type-aliases
 	./code/07-arrays-slices-maps/15-for-loop
+	./code/08-functions-deep-dive/01-functions-as-values
+	./code/08-functions-deep-dive/02-anonymous-functions-start
+	./code/08-functions-deep-dive/03-anonymous-functions
+	./code/08-functions-deep-dive/04-closures
 
 )
 

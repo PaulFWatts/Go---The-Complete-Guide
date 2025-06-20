@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	numbers := []int{1, 2, 3}
 
+	// Using an anonymous function to transform the numbers
 	transformed := transformNumbers(&numbers, func(number int) int {
 		return number * 2
 	})

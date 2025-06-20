@@ -20,6 +20,7 @@ func main() {
 	fmt.Println(tripled)
 }
 
+// transformNumbers applies a transformation function to each element in the numbers slice.
 func transformNumbers(numbers *[]int, transform func(int) int) []int {
 	dNumbers := []int{}
 
@@ -30,6 +31,7 @@ func transformNumbers(numbers *[]int, transform func(int) int) []int {
 	return dNumbers
 }
 
+// createTransformer returns a closure that multiplies a number by the given factor.
 func createTransformer(factor int) func(int) int {
 	return func(number int) int {
 		return number * factor
