@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(anotherSum)
 }
 
+// sumup takes a starting value and a variadic number of integers
 func sumup(startingValue int, numbers ...int) int {
 	sum := 0
 

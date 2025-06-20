@@ -7,6 +7,7 @@ func main() {
 	fmt.Println(fact)
 }
 
+// factorial function calculates the factorial of a given number using recursion.
 func factorial(number int) int {
 	if number == 0 {
 		return 1

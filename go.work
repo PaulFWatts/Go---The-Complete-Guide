@@ -76,6 +76,7 @@ use (
 	./code/08-functions-deep-dive/02-anonymous-functions-start
 	./code/08-functions-deep-dive/03-anonymous-functions
 	./code/08-functions-deep-dive/04-closures
-
+	./code/08-functions-deep-dive/05-recursion
+	./code/08-functions-deep-dive/06-variadic-functions
 )
 
