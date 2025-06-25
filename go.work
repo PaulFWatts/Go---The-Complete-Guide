@@ -78,5 +78,7 @@ use (
 	./code/08-functions-deep-dive/04-closures
 	./code/08-functions-deep-dive/05-recursion
 	./code/08-functions-deep-dive/06-variadic-functions
+	./code/09-practice-prj-price-calculator/01-starting-project
+	./code/09-practice-prj-price-calculator/02-basic-first-version
 )
 
