@@ -20,7 +20,7 @@ func (job TaxIncludedPriceJob) Process() {
 	fmt.Println(result)
 }
 
-// NewTaxIncludedPriceJob creates a new TaxIncludedPriceJob with the given tax rate and a default set of input prices
+// NewTaxIncludedPriceJob Constructor creates a new TaxIncludedPriceJob with the given tax rate and a default set of input prices
 func NewTaxIncludedPriceJob(taxRate float64) *TaxIncludedPriceJob {
 	return &TaxIncludedPriceJob{
 		InputPrices: []float64{10, 20, 30},

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example.com/price-calculator/prices"
+	"example.com04/price-calculator/prices"
 )
 
 func main() {

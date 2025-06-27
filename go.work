@@ -81,5 +81,6 @@ use (
 	./code/09-practice-prj-price-calculator/01-starting-project
 	./code/09-practice-prj-price-calculator/02-basic-first-version
 	./code/09-practice-prj-price-calculator/03-adding-a-method
+	./code/09-practice-prj-price-calculator/04-working-with-file-data
 )
 

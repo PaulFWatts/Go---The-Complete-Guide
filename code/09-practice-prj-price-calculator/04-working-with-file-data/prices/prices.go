@@ -13,6 +13,7 @@ type TaxIncludedPriceJob struct {
 	TaxIncludedPrices map[string]float64
 }
 
+// LoadData reads prices from a file named "prices.txt" and populates the InputPrices slice.
 func (job *TaxIncludedPriceJob) LoadData() {
 	file, err := os.Open("prices.txt")
 
