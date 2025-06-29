@@ -82,5 +82,11 @@ use (
 	./code/09-practice-prj-price-calculator/02-basic-first-version
 	./code/09-practice-prj-price-calculator/03-adding-a-method
 	./code/09-practice-prj-price-calculator/04-working-with-file-data
+	./code/09-practice-prj-price-calculator/05-outsourcing-sharable-logic
+	./code/09-practice-prj-price-calculator/06-outsourced-file-access
+	./code/09-practice-prj-price-calculator/07-storing-json-data
+	./code/09-practice-prj-price-calculator/08-adding-a-filemanager-struct
+	./code/09-practice-prj-price-calculator/09-adding-using-struct-tags
+	./code/09-practice-prj-price-calculator/10-interfaces-to-the-rescue
 )
 

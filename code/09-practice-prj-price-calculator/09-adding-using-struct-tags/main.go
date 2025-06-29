@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"example.com/price-calculator/filemanager"
-	"example.com/price-calculator/prices"
+	"example.com09/price-calculator/filemanager"
+	"example.com09/price-calculator/prices"
 )
 
 func main() {

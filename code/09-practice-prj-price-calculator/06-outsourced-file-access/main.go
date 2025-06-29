@@ -1,9 +1,10 @@
 package main
 
 import (
-	"example.com/price-calculator/prices"
+	"example.com06/price-calculator/prices"
 )
 
+// main function to run the price calculator with different tax rates
 func main() {
 	taxRates := []float64{0, 0.07, 0.1, 0.15}
 

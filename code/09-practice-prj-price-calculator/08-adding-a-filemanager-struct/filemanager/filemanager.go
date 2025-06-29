@@ -50,7 +50,7 @@ func (fm FileManager) WriteResult(data interface{}) error {
 
 	if err != nil {
 		file.Close()
-		return errors.New("Faild to convert data to JSON.")
+		return errors.New("Failed to convert data to JSON.")
 	}
 
 	file.Close()

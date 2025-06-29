@@ -33,6 +33,7 @@ func ReadLines(path string) ([]string, error) {
 	return lines, nil
 }
 
+// WriteJSON writes the provided data to a file at the specified path in JSON format.
 func WriteJSON(path string, data interface{}) error {
 	file, err := os.Create(path)
 
@@ -45,7 +46,7 @@ func WriteJSON(path string, data interface{}) error {
 
 	if err != nil {
 		file.Close()
-		return errors.New("Faild to convert data to JSON.")
+		return errors.New("Failed to convert data to JSON.")
 	}
 
 	file.Close()
