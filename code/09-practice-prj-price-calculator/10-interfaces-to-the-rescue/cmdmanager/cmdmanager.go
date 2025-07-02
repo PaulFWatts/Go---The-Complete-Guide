@@ -5,6 +5,7 @@ import "fmt"
 type CMDManager struct {
 }
 
+// CMDManager implements the CommandManager interface
 func (cmd CMDManager) ReadLines() ([]string, error) {
 	fmt.Println("Please enter your prices. Confirm every price with ENTER")
 
@@ -15,6 +16,7 @@ func (cmd CMDManager) ReadLines() ([]string, error) {
 		fmt.Print("Price: ")
 		fmt.Scan(&price)
 
+		// Break the loop if the user enters "0"
 		if price == "0" {
 			break
 		}

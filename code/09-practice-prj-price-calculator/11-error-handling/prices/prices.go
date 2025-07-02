@@ -3,8 +3,8 @@ package prices
 import (
 	"fmt"
 
-	"example.com/price-calculator/conversion"
-	"example.com/price-calculator/iomanager"
+	"example.com11/price-calculator/conversion"
+	"example.com11/price-calculator/iomanager"
 )
 
 type TaxIncludedPriceJob struct {

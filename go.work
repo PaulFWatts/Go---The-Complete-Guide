@@ -88,5 +88,6 @@ use (
 	./code/09-practice-prj-price-calculator/08-adding-a-filemanager-struct
 	./code/09-practice-prj-price-calculator/09-adding-using-struct-tags
 	./code/09-practice-prj-price-calculator/10-interfaces-to-the-rescue
+	./code/09-practice-prj-price-calculator/11-error-handling
 )
 
