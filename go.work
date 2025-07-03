@@ -89,5 +89,11 @@ use (
 	./code/09-practice-prj-price-calculator/09-adding-using-struct-tags
 	./code/09-practice-prj-price-calculator/10-interfaces-to-the-rescue
 	./code/09-practice-prj-price-calculator/11-error-handling
+	./code/10-concurrency/01-starting-project
+	./code/10-concurrency/02-introducing-using-channels
+	./code/10-concurrency/03-multiple-channels
+	./code/10-concurrency/04-project-starting-project
+	./code/10-concurrency/05-managing-channels-with-select
+	./code/10-concurrency/06-deferring-code-execution
 )
 

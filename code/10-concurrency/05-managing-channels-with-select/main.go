@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"example.com/price-calculator/filemanager"
-	"example.com/price-calculator/prices"
+	"example.com105/price-calculator/filemanager"
+	"example.com105/price-calculator/prices"
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 				fmt.Println(err)
 			}
 		case <-doneChans[index]:
-			fmt.Println("Done!")
+			fmt.Printf("Job %d completed.\n", index+1)
 		}
 	}
 }
